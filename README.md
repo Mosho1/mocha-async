@@ -30,7 +30,7 @@ glob('src/**/test.ts', runTests);
 A test would look like this, nothing unusual:
 
 ```
-// these modules are actually fetched using System.import
+// this module and its dependencies are actually imported by systemjs
 import {expect} from 'chai'; 
 import someOtherModule from '../somewhere';
 
