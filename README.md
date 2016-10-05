@@ -1,6 +1,6 @@
 # mocha-async
 
-Use a different loader than nodejs' `require` to resolve modules, for example `systemjs`.
+Use a different, async loader than nodejs' `require` to resolve modules, for example `systemjs`.
 
 ## Example
 
