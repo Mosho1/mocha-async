@@ -29,7 +29,9 @@ This snippet uses `systemjs` which is configured to transpile and typecheck usin
 
 A test would look like this, nothing unusual:
 
+```
 import {expect} from 'chai';
+import someOtherModule from '../somewhere';
 
 describe('test', () => {
     it('should be a meaningful test', () => {
