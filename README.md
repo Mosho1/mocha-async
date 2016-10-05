@@ -26,3 +26,16 @@ glob('src/**/test.ts', runTests);
 ```
 
 This snippet uses `systemjs` which is configured to transpile and typecheck using TypeScript to run tests (written in TypeScript).
+
+A test would look like this, nothing unusual:
+
+import {expect} from 'chai';
+
+describe('test', () => {
+    it('should be a meaningful test', () => {
+        /* ... */
+    });
+});
+
+```
+
