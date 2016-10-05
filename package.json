@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "mocha-async",
+      "D:\\repos\\command-hub"
+    ]
+  ],
+  "_from": "mocha-async@latest",
+  "_id": "mocha-async@0.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/mocha-async",
+  "_nodeVersion": "5.10.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/mocha-async-0.0.3.tgz_1471992286363_0.25532231107354164"
+  },
+  "_npmUser": {
+    "email": "sharonrolel@gmail.com",
+    "name": "mosho"
+  },
+  "_npmVersion": "3.8.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "mocha-async",
+    "raw": "mocha-async",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shasum": "d249b75af774b45eff057c620f87166260ae4a68",
+  "_shrinkwrap": null,
+  "_spec": "mocha-async",
+  "_where": "D:\\repos\\command-hub",
+  "author": {
+    "name": "Sharon Rolel"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "d249b75af774b45eff057c620f87166260ae4a68",
+    "tarball": "https://registry.npmjs.org/mocha-async/-/mocha-async-0.0.3.tgz"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "sharonrolel@gmail.com",
+      "name": "mosho"
+    }
+  ],
+  "name": "mocha-async",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "mocha": "*"
+  },
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "mocha test/index.js"
+  },
+  "version": "0.0.3"
+}
