@@ -4,6 +4,8 @@ Use a different loader than nodejs' `require` to resolve modules, for example `s
 
 ## Example
 
+This snippet uses `systemjs` which is configured to transpile and typecheck using TypeScript to run tests (written in TypeScript).
+
 ```
 const MochaAsync = require('mocha-async');
 const glob = require('glob');
@@ -24,8 +26,6 @@ const runTests = (err, files) => {
 glob('src/**/__tests__/**/*.ts', runTests);
 glob('src/**/test.ts', runTests);
 ```
-
-This snippet uses `systemjs` which is configured to transpile and typecheck using TypeScript to run tests (written in TypeScript).
 
 A test would look like this, nothing unusual:
 
