@@ -1,8 +1,9 @@
 "use strict";
 
 const Mocha = require('mocha');
+const MochaConstructor = typeof Mocha === 'function' ? Mocha : Mocha.constructor;
 
-module.exports = class MochaAsync extends Mocha {
+module.exports = class MochaAsync extends MochaConstructor {
 
     constructor(options) {
         const loader = options.loader;
